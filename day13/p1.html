@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #grand_parent,#grand_parent1{
+            width: 500px;
+            height: 300px;
+            border: 2px solid;
+            display: flex;
+            padding-top: 150px;
+            justify-content: space-evenly;
+        }
+        #parent1,#parent11{
+            width: 200px;
+            height: 200px;
+            border: 2px solid;
+        }
+        #child,#child11,#child12{
+            height: 100px;
+            width: 100px;
+            /* margin: 50px */
+            margin-left: 50px;
+            border: 2px solid;
+            margin-top: 30px;
+        }
+
+        #parent2,#parent12{
+            width: 200px;
+            height: 200px;
+            border: 2px solid;
+        }
+    </style>
+</head>
+<body style="display: flex;">
+    <div id="grand_parent">
+        <div id="parent1">
+            <div id="child">
+
+            </div>
+        </div>
+        <div id="parent2">
+
+        </div>
+    </div>
+    <!--  -->
+    <div id="grand_parent1">
+        <div id="parent11">
+            <div id="child11">
+
+            </div>
+        </div>
+        <div id="parent12">
+            <div id="child12">
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./p1.js"></script>
+</body>
+</html>
